@@ -1,0 +1,29 @@
+{
+  "name": "typescript-project-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "tsc",
+    "start:build": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.15.17",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "ethers": "^6.14.0",
+    "factorial": "^2.0.0",
+    "fs": "^0.0.1-security",
+    "js-combinatorics": "^2.1.2",
+    "mathjs": "^14.4.0",
+    "obliterator": "^2.0.5",
+    "permutation-iterator": "^0.1.0"
+  }
+}
